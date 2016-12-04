@@ -25,7 +25,7 @@
 * debian 6.0.6/64位/1核512M/30G数据盘  --->测试ok
 
 ##安装步骤：
-xshell/xftp上传到sh目录
+* xshell/xftp上传到sh目录
 * chmod –R 777 sh
 * cd sh
 * ./install.sh
