@@ -1,49 +1,42 @@
-------------------------- ×Ô¶¯°²×°¹ý³Ì -------------------------
+##è¯´æ˜Ž
+æ­¤å®‰è£…åŒ…å¯åœ¨é˜¿é‡Œäº‘æ‰€æœ‰linuxç³»ç»Ÿä¸Šéƒ¨ç½²å®‰è£…ã€‚
+æ­¤å®‰è£…åŒ…åŒ…å«çš„è½¯ä»¶åŠç‰ˆæœ¬ä¸ºï¼š
+nginxï¼š1.0.15ã€1.2.5ã€1.4.4ï¼ˆåˆ é™¤è€ç‰ˆæœ¬1.0.4ï¼‰
+apacheï¼š2.2.22ã€2.4.2
+mysqlï¼š5.1.73ã€5.5.35ã€5.6.15
+phpï¼š5.3.18ã€5.4.23ã€5.5.7,5.6.11
+phpæ‰©å±•ï¼šmemcacheã€Zend Engine/OPcache
+ftpï¼šï¼ˆyum/apt-getå®‰è£…ï¼‰
+phpwindï¼š8.7 GBK
+phpmyadminï¼š3.2.2.2
 
-Í¼ÎÄ½Ì³ÌµØÖ·£ºhttp://help.aliyun.com/manual?spm=0.0.0.0.oMceY0&helpId=129
+## version 1.3.0 æµ‹è¯•è®°å½•
 
-´Ë°²×°°ü¿ÉÔÚ°¢ÀïÔÆËùÓÐlinuxÏµÍ³ÉÏ²¿Êð°²×°¡£
+ä»¥ä¸‹ä¸ºæ­¤è„šæœ¬åœ¨é˜¿é‡Œäº‘linuxç³»ç»Ÿæµ‹è¯•è®°å½•ï¼ˆæŠ½æ ·æµ‹è¯•ï¼‰:
+centos 5.8/64ä½/4æ ¸4G/50æ•°æ®ç›˜       --->æµ‹è¯•ok
+centos 5.8/64ä½/1æ ¸512M/30Gæ•°æ®ç›˜    --->æµ‹è¯•ok
 
-´Ë°²×°°ü°üº¬µÄÈí¼þ¼°°æ±¾Îª£º
-nginx£º1.0.15¡¢1.2.5¡¢1.4.4£¨É¾³ýÀÏ°æ±¾1.0.4£©
-apache£º2.2.22¡¢2.4.2
-mysql£º5.1.73¡¢5.5.35¡¢5.6.15
-php£º5.3.18¡¢5.4.23¡¢5.5.7£¨É¾³ýÀÏ°æ±¾5.2.17£©
-phpÀ©Õ¹£ºmemcache¡¢Zend Engine/OPcache
-ftp£º£¨yum/apt-get°²×°£©
-phpwind£º8.7 GBK
-phpmyadmin£º3.2.2.2
+centos 6.3/64ä½/1æ ¸512M/æ— æ•°æ®ç›˜     --->æµ‹è¯•ok
+centos 6.3/64ä½/4æ ¸4G/50Gæ•°æ®ç›˜      --->æµ‹è¯•ok
 
-°²×°²½Öè£º
-
-xshell/xftpÉÏ´«shÄ¿Â¼
-
-chmod ¨CR 777 sh
-cd sh
-./install.sh
-
-°²×°Íê³ÉºóÇë²é¿´account.logÎÄ¼þ£¬Êý¾Ý¿âÃÜÂëÔÚÀïÃæ¡£
-
-        
-         Èç¹ûÓÐÊ²Ã´Ê¹ÓÃÎÊÌâ¡¢bug£¬»òÕß½¨Òé£¬¿ÉÁªÏµ×÷Õß£ºqrj@jiagouyun.com
-
---------------------------- version 1.3.0 ²âÊÔ¼ÇÂ¼ --------------------------
-
-ÒÔÏÂÎª´Ë½Å±¾ÔÚ°¢ÀïÔÆlinuxÏµÍ³²âÊÔ¼ÇÂ¼£¨³éÑù²âÊÔ£©:
-centos 5.8/64Î»/4ºË4G/50Êý¾ÝÅÌ       --->²âÊÔok
-centos 5.8/64Î»/1ºË512M/30GÊý¾ÝÅÌ    --->²âÊÔok
-
-centos 6.3/64Î»/1ºË512M/ÎÞÊý¾ÝÅÌ     --->²âÊÔok
-centos 6.3/64Î»/4ºË4G/50GÊý¾ÝÅÌ      --->²âÊÔok
-
-redhat 5.7/64Î»/4ºË4G/50Êý¾ÝÅÌ       --->²âÊÔok
-redhat 5.7/64Î»/1ºË512M/ÎÞÊý¾ÝÅÌ     --->²âÊÔok
+redhat 5.7/64ä½/4æ ¸4G/50æ•°æ®ç›˜       --->æµ‹è¯•ok
+redhat 5.7/64ä½/1æ ¸512M/æ— æ•°æ®ç›˜     --->æµ‹è¯•ok
 
 
-ubuntu 12.04/64Î»/4ºË4G/50GÊý¾ÝÅÌ    --->²âÊÔok
-ubuntu 12.04/64Î»/1ºË512M/ÎÞÊý¾ÝÅÌ   --->²âÊÔok
+ubuntu 12.04/64ä½/4æ ¸4G/50Gæ•°æ®ç›˜    --->æµ‹è¯•ok
+ubuntu 12.04/64ä½/1æ ¸512M/æ— æ•°æ®ç›˜   --->æµ‹è¯•ok
 
 
-debian 6.0.6/64Î»/1ºË512M/ÎÞÊý¾ÝÅÌ   --->²âÊÔok
-debian 6.0.6/64Î»/1ºË512M/30GÊý¾ÝÅÌ  --->²âÊÔok
+debian 6.0.6/64ä½/1æ ¸512M/æ— æ•°æ®ç›˜   --->æµ‹è¯•ok
+debian 6.0.6/64ä½/1æ ¸512M/30Gæ•°æ®ç›˜  --->æµ‹è¯•ok
 
+##å®‰è£…æ­¥éª¤ï¼š
+xshell/xftpä¸Šä¼ åˆ°shç›®å½•
+1. chmod â€“R 777 sh
+2. cd sh
+3. ./install.sh
+4. é€‰æ‹©ç‰ˆæœ¬å¹¶ç¡®è®¤
+5. å®‰è£…å®ŒæˆåŽè¯·æ‰“å¼€account.logæ–‡ä»¶ï¼ŒæŸ¥çœ‹é»˜è®¤çš„æ•°æ®åº“å¯†ç .
+
+## åé¦ˆ
+å¦‚æžœæœ‰ä»€ä¹ˆä½¿ç”¨é—®é¢˜ã€bugï¼Œæˆ–è€…å»ºè®®ï¼Œå¯è”ç³»ä½œè€…ï¼šqrj@jiagouyun.com
